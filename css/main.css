@@ -5,11 +5,11 @@
     Template Author : pixelhint.com
     Author Email    : contact@pixelhint.com
     License         : pixelhint.com/license
-    
-    
+
+
     *****************************************
-    
-    
+
+
     - Header
     - Hero section
     - Featured on seaction
@@ -19,7 +19,7 @@
     - Subscription section
     - Footer
     - Responsive CSS
-    
+
 
 */
 
@@ -95,7 +95,7 @@ a:focus{
 
 .container{
 	max-width: 1130px;
-	padding-top: 20px;
+	padding-top: 1px;
 }
 
 
@@ -112,9 +112,10 @@ a:focus{
 header{
 	position: relative;
 	display: block;
-	height: 100px;
+	height: 60px;
 	width: 100%;
 	z-index: 99;
+  border-bottom: 1px solid #1b5e20;
 	background-color: #41c17d;
 	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
@@ -215,7 +216,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/fotos/DSC_0307.JPG') no-repeat fixed center center ;	
+	background: url('../img/fotos/DSC_0307.JPG') no-repeat fixed center center ;
 	background-size: cover;
 }
 
@@ -446,29 +447,29 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-.about .features_list ul li.camera_icon{	
+.about .features_list ul li.camera_icon{
 	background: url('../img/icon1.png') no-repeat;
-	background-position: 0 15px; 
+	background-position: 0 15px;
 }
 
-.about .features_list ul li.video_icon{	
+.about .features_list ul li.video_icon{
 	background: url('../img/icon2.png') no-repeat;
-	background-position: 0 15px; 
+	background-position: 0 15px;
 }
 
-li.eye_icon{	
+li.eye_icon{
 	background: url('../img/icon3.png') no-repeat;
-	background-position: 0 14px; 
+	background-position: 0 14px;
 }
 
-.about .features_list ul li.pic_icon{	
+.about .features_list ul li.pic_icon{
 	background: url('../img/icon4.png') no-repeat;
-	background-position: 0 14px; 
+	background-position: 0 14px;
 }
 
-.about .features_list ul li.loc_icon{	
+.about .features_list ul li.loc_icon{
 	background: url('../img/icon5.png') no-repeat;
-	background-position: 3px 13px; 
+	background-position: 3px 13px;
 }
 
 .about .features_list ul li span{
@@ -567,7 +568,7 @@ li.eye_icon{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
 
 .testimonials .testimonials_list blockquote .job{
@@ -677,7 +678,7 @@ li.eye_icon{
 	-moz-border-bottom-left-radius: 2px;
 	-webkit-border-bottom-left-radius: 2px;
 
-	
+
 }
 
 .sub_box #mc_submit{
@@ -822,7 +823,7 @@ footer .copyright a{
 
 	header nav li a{
 		display: block;
-		width: 100%;	
+		width: 100%;
 		padding: 20px 0;
 		border-bottom: 1px solid #389965;
 	}
